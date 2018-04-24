@@ -30,6 +30,7 @@
     <UseRefCounting>false</UseRefCounting>
     <Profiling>false</Profiling>
     <AOTMode>None</AOTMode>
+    <HttpClientHandler>NSUrlSessionHandler</HttpClientHandler>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
